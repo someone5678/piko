@@ -1,4 +1,4 @@
-package app.revanced.patches.shared.misc.extensions
+package app.revanced.patches.shared.extensions
 
 import app.revanced.patcher.fingerprint
 import com.android.tools.smali.dexlib2.AccessFlags
