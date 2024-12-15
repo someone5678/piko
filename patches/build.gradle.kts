@@ -21,7 +21,7 @@ dependencies {
     implementation(libs.guava)
 
     // A dependency to the Android library unfortunately fails the build, which is why this is required.
-    compileOnly(project("dummy"))
+    compileOnly(project(":dummy"))
 }
 
 tasks {
