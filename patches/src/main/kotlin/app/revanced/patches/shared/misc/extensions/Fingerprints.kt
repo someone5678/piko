@@ -8,6 +8,6 @@ internal val revancedUtilsPatchesVersionFingerprint = fingerprint {
     returns("Ljava/lang/String;")
     parameters()
     custom { method, _ ->
-        method.name == "getPatchesReleaseVersion" && method.definingClass == EXTENSION_CLASS_DESCRIPTOR
+        method.name == "getPatchesReleaseVersion" && method.definingClass == EXTENSION_UTILS_CLASS_DESCRIPTOR
     }
 }
